@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <title>Business Meets Clients</title>
+</head>
+
+<body id="userbody">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="./index.html">
+            <span class="brandstyle1">WE</span>
+            <span id="brandstyle2">connect</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+
+            </ul>
+            <ul class="navbar-nav float-right">
+
+                <li class="nav-item">
+                    <span class=" small">Username</span>
+                    <span>
+                        <i class="fa fa-user fa-2x px-3 py-1 thehover" aria-hidden="true"></i>
+                    </span>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0" action="./Index.html">
+
+                <button class="btn btn-primarybtn my-2 my-sm-0" type="submit">Logout</button>
+            </form>
+        </div>
+
+    </nav>
+
+    <!-- End of Navigation -->
+
+    <!-- MAIN SECTION -->
+
+    <section id="mainsection">
+        <div class="container">
+            <div class="row">
+
+                <!-- LEFT SIDE -->
+
+                <div class=" col-md-3" id="left-section">
+
+                    <ul class="list-group py-2">
+
+                        <li class="list-group-item">
+                            <a href="./create.html">Create New Business</a>
+                        </li>
+                        <li class="list-group-item active  orangecolour">
+                            <a href="./user.html">My Business</a>
+                            <span class="badge badge-primary badge-pill orangecolour float-right">3</span>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href="./businesses.html">All Businesses</a>
+                            <span class="badge badge-primary badge-pill orangecolour float-right">23</span>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <!-- ENDO OF LEFT SIDE -->
+
+
+
+                <div class=" col-md-9 thehover">
+                    <div class="row text-center py-5">
+                        <div class=" col-md-3">
+                            <i class="fa fa-user fa-5x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="User Profile"></i>
+                        </div>
+                        <div class=" col-md-3">
+                            <i class="fa fa-briefcase fa-5x" aria-hidden="true"></i>
+                        </div>
+                        <div class=" col-md-3">
+                            <i class="fa fa-envelope fa-5x" aria-hidden="true"></i>
+                        </div>
+                        <div class=" col-md-3">
+                            <i class="fa fa-envelope fa-5x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class="card">
+                        <h5 class="card-header">Registered Businesses</h5>
+                        <div class="card-body">
+                            <table class="table table-striped table-hover" id="business-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Business Name</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Location</th>
+                                        <th scope="col">Edit</th>
+                                        <th scope="col">Delete</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>
+                                            <a href="./business.html">Coder Fiva</a>
+                                        </td>
+                                        <td>27/02/2018</td>
+                                        <td>Kaduna</td>
+                                        <td>
+                                            <a href="./update.html">
+                                                <i class="fa fa-pencil" aria-hidden="true"></i>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#">
+                                                <i class="fa fa-remove" aria-hidden="true"></i>
+                                            </a>
+                                        </td>
+
+
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>
+                                            <a href="./business.html">Otto Electrics</a>
+                                        </td>
+                                        <td>27/02/2018</td>
+                                        <td>Lagos</td>
+                                        <td>
+                                            <a href="./update.html">
+                                                <i class="fa fa-pencil" aria-hidden="true"></i>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#">
+                                                <i class="fa fa-remove" aria-hidden="true"></i>
+                                            </a>
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>
+                                            <a href="./business.html">NedRite</a>
+                                        </td>
+                                        <td>27/02/2018</td>
+                                        <td>Bayelsa</td>
+                                        <td>
+                                            <a href="./update.html">
+                                                <i class="fa fa-pencil" aria-hidden="true"></i>
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#">
+                                                <i class="fa fa-remove" aria-hidden="true"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- END OF MAIN SECTION -->
+
+
+
+
+
+
+
+
+
+    <section id="company">
+        <div class="container">
+            <div class="row">
+                <div class=" col-sm-12 col-md-4 col-xl-4 col-lg-4">
+                    <h5>Contact us</h5>
+                    <br>
+                    <i class="fa fa-phone">0802-5784434</i>
+                    <br>
+                    <i class="fa fa-envelope">klevamane@gmail.com</i>
+                </div>
+                <div class=" col-sm-12 col-md-4 col-xl-4 col-lg-4">
+                    <h5>About Us</h5>
+                    <br>
+                    <p class=" text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sit nam deserunt debitis unde dolorum possimus
+                        aliquam ullam impedit
+                        <br> reiciendis neque, enim odio, doloribus vero nobis facilis rem! A, quis.</p>
+                </div>
+                <div class=" col-sm-12 col-md-4 col-xl-4 col-lg-4">
+                    <h5>NEWSLETTER</h5>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sit</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <p>Copyright 2018 @klevamane - Cycle 30</p>
+    </footer>
+
+
+
+
+
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/holder.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    
+</body>
+
+</html>
