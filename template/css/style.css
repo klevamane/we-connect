@@ -9,6 +9,21 @@ PROJETC COLOURS
 #6e4049c2 ---- SHOWCASE
 **/
 
+.white-colour {
+  color: #ffffff;
+  font-weight: bolder;
+  }
+ 
+ .yellow-colour {
+  color: #f3df2b;
+  font-weight: bold;
+ }
+ 
+ 
+ .primary-app-colour {
+   color: #E7717D;
+ }
+ 
 
 body {
     background: #C2CAD0;
@@ -29,30 +44,14 @@ body {
 .bottom-padding5 {
   padding-bottom: 5rem;
 }
-/****COLOURS ****/
-
-
-.white-colour {
-  
- color: #ffffff;
- font-weight: bolder;
- }
-
-.yellow-colour {
- color: #f3df2b;
- font-weight: bold;
-}
-
-
-.primary-app-colour {
-  color: #E7717D;
-}
 
 
 .business-name {
     color: #7E685A !important;
     font-weight: bold !important;
 }
+
+
 /** SHOWCASE **/
 
 #showcase{
@@ -78,9 +77,7 @@ body {
   .p-7 {
     padding: 13rem 2rem 6rem 6rem !important;
   }
-.showcase-colour {
-    color: #6e4049c2
-}
+
 
 .top-padding {
     padding-top: 200px;
@@ -101,6 +98,11 @@ body {
     text-decoration: none;
     color:#f3df2b;
 }
+
+.showcase-colour {
+  color: #6e4049c2
+}
+
 
 #register .row {
     height: 60px;    
@@ -173,6 +175,7 @@ body {
     padding-top: 10px !important;
     padding-bottom: 5px;
 }
+
 
 /*** NAVBAR COLOUR AND SETTING ***/
 
@@ -305,9 +308,9 @@ body {
 
 
 
-  /****
+  /****************
   BRAND STYLES
-  **/
+  *****************/
   .brandstyle1 {
       color: rgb(231, 228, 54);
       font-weight: bolder;
@@ -326,8 +329,6 @@ body {
     color: #fff;
     
   }
-
-
 
   #company{
     background: rgb(31, 31, 34);
@@ -396,7 +397,9 @@ body {
 
 
 
-  /** MEDIA QUERIES **/ 
+  /****** MEDIA QUERIES *****
+  ***************************/ 
+  
   @media(max-width:770px) {
 
     #some-businesses .card {
@@ -436,6 +439,12 @@ body {
     text-decoration: none !important;
   }
 
+.left-panel {
+  background-color: #f7475e !important;
+  border:none;
+  color: black !important;
+}
+
   .orangecolour{
     background-color: #f7ac47 !important;
     border: none;
@@ -445,9 +454,14 @@ body {
   }
 
   .thehover i:hover {
-    color: rgb(151, 67, 77);
+    color: rgb(179, 78, 90);
     cursor: pointer;
      
+  }
+
+  .thehover i {
+    text-decoration: none;
+    color: rgb(151, 67, 77);
   }
 
   #left-section{
@@ -456,7 +470,7 @@ body {
 }
 
 #left-section ul li a {
-  color:rgb(231, 228, 54) !important;
+  color:rgb(126, 9, 9) !important;
   text-decoration: none;
   font-weight:450;
 }
@@ -466,6 +480,10 @@ body {
   text-decoration: none;
   font-weight:700;
 }
+
+
+/******** BUSINESS TABLE ******
+*******************************/
 
 #business-table a:hover{
   font-weight: bolder !important;
