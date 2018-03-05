@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <title>Business Meets Clients</title>
+</head>
+
+<body id="userbody">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="./index.html">
+            <span class="brandstyle1">WE</span>
+            <span id="brandstyle2">connect</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="navbar-nav float-right">
+
+                <li class="nav-item">
+                    <span class=" small">Username</span>
+                    <span>
+                        <i class="fa fa-user fa-2x px-3 py-1 thehover" aria-hidden="true"></i>
+                    </span>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0" action="./index.html">
+
+                <button class="btn btn-primarybtn my-2 my-sm-0" type="submit">Logout</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- End of Navigation -->
+
+    <!-- MAIN SECTION -->
+
+    <section id="mainsection">
+        <div class="container">
+            <div class="row">
+
+                <!-- LEFT SIDE -->
+
+                <div class=" col-md-3" id="left-section">
+
+                    <ul class="list-group py-2">
+
+                        <li class="list-group-item active orangecolour">
+                            <a href="./create.html">Edit Business</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="./user.html">My Business</a>
+                            <span class="badge badge-primary badge-pill orangecolour float-right">3</span>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href="./business.html">All Businesses</a>
+                            <span class="badge badge-primary badge-pill orangecolour float-right">23</span>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <!-- ENDO OF LEFT SIDE -->
+
+
+                <div class=" col-md-9 thehover">
+                    <div class="row text-center py-5">
+                        <div class=" col-md-3">
+                            <i class="fa fa-user fa-5x" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="User Profile"></i>
+                        </div>
+                        <div class=" col-md-3">
+                            <i class="fa fa-briefcase fa-5x" aria-hidden="true"></i>
+                        </div>
+                        <div class=" col-md-3">
+                            <i class="fa fa-envelope fa-5x" aria-hidden="true"></i>
+                        </div>
+                        <div class=" col-md-3">
+                            <i class="fa fa-envelope fa-5x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+
+                   <div class="card bottom-margin10">
+                        <h5 class="card-header text-center">Edit Business</h5>
+                        <div class="card-body">
+
+                            <form class="bottom-padding5">
+                                <div class="form-group">
+                                    <label for="business_name">Business Name</label>
+                                    <input type="text" class="form-control" id="business_name" aria-describedby="emailHelp" placeholder="Enter Business Name">
+
+                                </div>
+                                <div class="form-group">
+                                    <label for="business_url">Company Website Url</label>
+                                    <input type="url" class="form-control" id="business_url" placeholder="URL">
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="company_type">Company Type</label>
+                                    <select class="form-control" id="company_type">
+                                        <option>Self Owned</option>
+                                        <option>Public</option>
+                                        <option>Non-Profit</option>
+                                        <option>Privately Held</option>
+                                        <option>Educational</option>
+                                        <option>Government Agency</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="location">Location</label>
+                                    <select class="form-control" id="location">
+                                        <option selected>Select State</option>
+                                        <option value="1">Abia</option>
+
+                                        <option value="2">Adamawa</option>
+
+                                        <option value="3">Akwa Ibom</option>
+
+                                        <option value="4">Anambra </option>
+
+                                        <option value="5">Bauchi</option>
+
+                                        <option value="6">Bayelsa </option>
+
+                                        <option value="7">Benue</option>
+
+                                        <option value="8">Borno</option>
+
+                                        <option value="9">Cross River </option>
+
+                                        <option value="10">Delta </option>
+
+                                        <option value="11">Ebonyi </option>
+
+                                        <option value="12">Edo</option>
+
+                                        <option value="13">Ekiti</option>
+
+                                        <option value="14">Enugu </option>
+
+                                        <option value="15">FCT</option>
+
+                                        <option value="16">Gombe </option>
+
+                                        <option value="17">Imo</option>
+
+                                        <option value="18">Jigawa</option>
+
+                                        <option value="19">Kaduna</option>
+
+                                        <option value="20">Kano</option>
+
+                                        <option value="21">katsina</option>
+
+                                        <option value="22">Kebbi</option>
+
+                                        <option value="23">Kogi</option>
+
+                                        <option value="24">Kwara</option>
+
+                                        <option value="25">Lagos</option>
+
+                                        <option value="26">Nasarawa</option>
+
+                                        <option value="27">Niger</option>
+
+                                        <option value="28">Ogun </option>
+
+                                        <option value="29">Ondo</option>
+
+                                        <option value="30">Osun</option>
+
+                                        <option value="31">Oyo</option>
+
+                                        <option value="32">Plateau</option>
+
+                                        <option value="33">Rivers</option>
+
+                                        <option value="34">Sokoto</option>
+
+                                        <option value="35">Taraba </option>
+
+                                        <option value="36">Yobe</option>
+
+                                        <option value="37">Zamfara </option>
+
+                                    </select>
+                                </div>
+
+                                <!-- INDUSTRY SELECTION -->
+
+                                <div class="form-group">
+                                    <label for="no_employess">Number of Employess</label>
+                                    <select class="form-control" id="no_employess">
+                                        <option>1-10</option>
+                                        <option>11-20</option>
+                                        <option>21 -50</option>
+                                        <option>51 -100</option>
+                                        <option>101 -500</option>
+                                        <option>>500</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="industry">Industry</label>
+                                    <select class="form-control" id="industry">
+                                        <option selected>Choose...</option>
+                                        <option value="47">Accounting</option>
+                                        <option value="94">Airlines/Aviation</option>
+                                        <option value="120">Alternative Dispute Resolution</option>
+                                        <option value="125">Alternative Medicine</option>
+                                        <option value="127">Animation</option>
+                                        <option value="19">Apparel &amp; Fashion</option>
+                                        <option value="50">Architecture &amp; Planning</option>
+                                        <option value="111">Arts and Crafts</option>
+                                        <option value="53">Automotive</option>
+                                        <option value="52">Aviation &amp; Aerospace</option>
+                                        <option value="41">Banking</option>
+                                        <option value="12">Biotechnology</option>
+                                        <option value="36">Broadcast Media</option>
+                                        <option value="49">Building Materials</option>
+                                        <option value="138">Business Supplies and Equipment</option>
+                                        <option value="129">Capital Markets</option>
+                                        <option value="54">Chemicals</option>
+                                        <option value="90">Civic &amp; Social Organization</option>
+                                        <option value="51">Civil Engineering</option>
+                                        <option value="128">Commercial Real Estate</option>
+                                        <option value="118">Computer &amp; Network Security</option>
+                                        <option value="109">Computer Games</option>
+                                        <option value="3">Computer Hardware</option>
+                                        <option value="5">Computer Networking</option>
+                                        <option value="4">Computer Software</option>
+                                        <option value="48">Construction</option>
+                                        <option value="24">Consumer Electronics</option>
+                                        <option value="25">Consumer Goods</option>
+                                        <option value="91">Consumer Services</option>
+                                        <option value="18">Cosmetics</option>
+                                        <option value="65">Dairy</option>
+                                        <option value="1">Defense &amp; Space</option>
+                                        <option value="99">Design</option>
+                                        <option value="69">Education Management</option>
+                                        <option value="132">E-Learning</option>
+                                        <option value="112">Electrical/Electronic Manufacturing</option>
+                                        <option value="28">Entertainment</option>
+                                        <option value="86">Environmental Services</option>
+                                        <option value="110">Events Services</option>
+                                        <option value="76">Executive Office</option>
+                                        <option value="122">Facilities Services</option>
+                                        <option value="63">Farming</option>
+                                        <option value="43">Financial Services</option>
+                                        <option value="38">Fine Art</option>
+                                        <option value="66">Fishery</option>
+                                        <option value="34">Food &amp; Beverages</option>
+                                        <option value="23">Food Production</option>
+                                        <option value="101">Fund-Raising</option>
+                                        <option value="26">Furniture</option>
+                                        <option value="29">Gambling &amp; Casinos</option>
+                                        <option value="145">Glass, Ceramics &amp; Concrete</option>
+                                        <option value="75">Government Administration</option>
+                                        <option value="148">Government Relations</option>
+                                        <option value="140">Graphic Design</option>
+                                        <option value="124">Health, Wellness and Fitness</option>
+                                        <option value="68">Higher Education</option>
+                                        <option value="14">Hospital &amp; Health Care</option>
+                                        <option value="31">Hospitality</option>
+                                        <option value="137">Human Resources</option>
+                                        <option value="134">Import and Export</option>
+                                        <option value="88">Individual &amp; Family Services</option>
+                                        <option value="147">Industrial Automation</option>
+                                        <option value="84">Information Services</option>
+                                        <option value="96">Information Technology and Services</option>
+                                        <option value="42">Insurance</option>
+                                        <option value="74">International Affairs</option>
+                                        <option value="141">International Trade and Development</option>
+                                        <option value="6">Internet</option>
+                                        <option value="45">Investment Banking</option>
+                                        <option value="46">Investment Management</option>
+                                        <option value="73">Judiciary</option>
+                                        <option value="77">Law Enforcement</option>
+                                        <option value="9">Law Practice</option>
+                                        <option value="10">Legal Services</option>
+                                        <option value="72">Legislative Office</option>
+                                        <option value="30">Leisure, Travel &amp; Tourism</option>
+                                        <option value="85">Libraries</option>
+                                        <option value="116">Logistics and Supply Chain</option>
+                                        <option value="143">Luxury Goods &amp; Jewelry</option>
+                                        <option value="55">Machinery</option>
+                                        <option value="11">Management Consulting</option>
+                                        <option value="95">Maritime</option>
+                                        <option value="80">Marketing and Advertising</option>
+                                        <option value="97">Market Research</option>
+                                        <option value="135">Mechanical or Industrial Engineering</option>
+                                        <option value="126">Media Production</option>
+                                        <option value="17">Medical Devices</option>
+                                        <option value="13">Medical Practice</option>
+                                        <option value="139">Mental Health Care</option>
+                                        <option value="71">Military</option>
+                                        <option value="56">Mining &amp; Metals</option>
+                                        <option value="35">Motion Pictures and Film</option>
+                                        <option value="37">Museums and Institutions</option>
+                                        <option value="115">Music</option>
+                                        <option value="114">Nanotechnology</option>
+                                        <option value="81">Newspapers</option>
+                                        <option value="100">Nonprofit Organization Management</option>
+                                        <option value="57">Oil &amp; Energy</option>
+                                        <option value="113">Online Media</option>
+                                        <option value="123">Outsourcing/Offshoring</option>
+                                        <option value="87">Package/Freight Delivery</option>
+                                        <option value="146">Packaging and Containers</option>
+                                        <option value="61">Paper &amp; Forest Products</option>
+                                        <option value="39">Performing Arts</option>
+                                        <option value="15">Pharmaceuticals</option>
+                                        <option value="131">Philanthropy</option>
+                                        <option value="136">Photography</option>
+                                        <option value="117">Plastics</option>
+                                        <option value="107">Political Organization</option>
+                                        <option value="67">Primary/Secondary Education</option>
+                                        <option value="83">Printing</option>
+                                        <option value="105">Professional Training &amp; Coaching</option>
+                                        <option value="102">Program Development</option>
+                                        <option value="79">Public Policy</option>
+                                        <option value="98">Public Relations and Communications</option>
+                                        <option value="78">Public Safety</option>
+                                        <option value="82">Publishing</option>
+                                        <option value="62">Railroad Manufacture</option>
+                                        <option value="64">Ranching</option>
+                                        <option value="44">Real Estate</option>
+                                        <option value="40">Recreational Facilities and Services</option>
+                                        <option value="89">Religious Institutions</option>
+                                        <option value="144">Renewables &amp; Environment</option>
+                                        <option value="70">Research</option>
+                                        <option value="32">Restaurants</option>
+                                        <option value="27">Retail</option>
+                                        <option value="121">Security and Investigations</option>
+                                        <option value="7">Semiconductors</option>
+                                        <option value="58">Shipbuilding</option>
+                                        <option value="20">Sporting Goods</option>
+                                        <option value="33">Sports</option>
+                                        <option value="104">Staffing and Recruiting</option>
+                                        <option value="22">Supermarkets</option>
+                                        <option value="8">Telecommunications</option>
+                                        <option value="60">Textiles</option>
+                                        <option value="130">Think Tanks</option>
+                                        <option value="21">Tobacco</option>
+                                        <option value="108">Translation and Localization</option>
+                                        <option value="92">Transportation/Trucking/Railroad</option>
+                                        <option value="59">Utilities</option>
+                                        <option value="106">Venture Capital &amp; Private Equity</option>
+                                        <option value="16">Veterinary</option>
+                                        <option value="93">Warehousing</option>
+                                        <option value="133">Wholesale</option>
+                                        <option value="142">Wine and Spirits</option>
+                                        <option value="119">Wireless</option>
+                                        <option value="103">Writing and Editing</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlFile1">Example file input</label>
+                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="company_desc">Company Description</label>
+                                    <textarea class="form-control" id="company_desc" rows="3"></textarea>
+                                </div>
+
+
+                                <button type="submit" class="btn btn-primarybtn btn-lg">Update</button>
+                            </form>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- END OF MAIN SECTION -->
+
+    <section id="company">
+        <div class="container">
+            <div class="row">
+                <div class=" col-sm-12 col-md-4 col-xl-4 col-lg-4">
+                    <h5>Contact us</h5>
+                    <br>
+                    <i class="fa fa-phone">0802-5784434</i>
+                    <br>
+                    <i class="fa fa-envelope">klevamane@gmail.com</i>
+                </div>
+                <div class=" col-sm-12 col-md-4 col-xl-4 col-lg-4">
+                    <h5>About Us</h5>
+                    <br>
+                    <p class=" text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sit nam deserunt debitis unde dolorum possimus
+                        aliquam ullam impedit
+                        <br> reiciendis neque, enim odio, doloribus vero nobis facilis rem! A, quis.</p>
+                </div>
+                <div class=" col-sm-12 col-md-4 col-xl-4 col-lg-4">
+                    <h5>NEWSLETTER</h5>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sit</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer">
+        <p>Copyright 2018 @klevamane - Cycle 30</p>
+    </footer>
+
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/holder.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script>
+        $(window).resize(function () {
+            var viewportWidth = $(window).width();
+            var delement = document.getElementById("regbtn");
+            if (viewportWidth < 769) {
+                $(delement).removeClass("btn-sm");
+                $(delement).removeClass("float-right");
+                $(delement).addClass("btn-block");
+                $(delement).addClass("centralizeAnchor");
+            } else {
+
+                $(delement).removeClass("btn-block");
+                $(delement).addClass("btn-sm");
+                $(delement).remove("centralizeAnchor");
+                $(delement).addClass("float-right");
+
+            }
+        });
+    </script>
+</body>
+
+</html>
