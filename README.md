@@ -8,7 +8,7 @@ WeConnect provides a platform that brings businesses and individuals together. T
 2. Internet browser
 
 ## URL
-* https://klevamane.github.io/we-connect/template/Index.html
+* https://klevamane.github.io/we-connect/template/index.html
 
 ## How to get a local copy
 #### Clone repository
